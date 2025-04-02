@@ -11,7 +11,7 @@ with open("iris_scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # App UI
-st.title(" Iris Flower Classifier (SVM with Pickle)")
+st.title(" Iris Flower Classifier Using Support Vector Machines")
 st.write("Input sepal and petal measurements below:")
 
 sepal_length = st.slider("Sepal length (cm)", 4.0, 8.0, 5.8)
